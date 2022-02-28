@@ -9,9 +9,8 @@ Theo thống kê, mỗi năm có tới 2 tỷ người dùng sử dụng các tr
 
 
 # Database design 
-![Screenshot (142)](https://user-images.githubusercontent.com/100283929/155971557-44639177-c3eb-40d7-89f7-6664396fd60b.png)
-
+![image](https://user-images.githubusercontent.com/100283929/156034321-8e7c242f-b1ad-4f91-9a99-babbae89d3df.png)
 
 
 #Demo
-
+1.Giao diện chính 
