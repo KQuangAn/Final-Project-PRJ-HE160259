@@ -1,0 +1,65 @@
+Create Database ShopDB
+use ShopDB
+
+Create table Accounts(
+Account_ID int PRIMARY KEY IDENTITY(1,1),
+Username varchar(255) NOT NULL,
+Password varchar(255) NOT NULL,
+Role varchar(255) NOT NULL
+)
+
+create table Category(
+Category_ID int PRIMARY KEY IDENTITY(1,1),
+Category_Name varchar(255) NOT NULL
+)
+create table Products(
+Product_ID int NOT NULL PRIMARY KEY IDENTITY(1,1),
+Product_Name varchar(255) NOT NULL,
+Product_Image varchar(255) NOT NULL,
+Product_Price float NOT NULL,
+Product_Title varchar(255) NOT NULL,
+Product_Description varchar(255) NOT NULL,
+Product_Size varchar(255),
+cateID int NOT NULL REFERENCES Category(Category_ID),
+sell_ID int REFERENCES Accounts(Account_ID)
+)
+
+Create table Coupon(
+CouponCode varchar(255) NOT NULL PRIMARY KEY,
+Discount_Amount int NOT NULL,
+Expire_Date Date
+)
+
+Insert into Category(Category_Name)
+Values('shoes'),
+('bag'),
+('hats')
+
+Insert into Accounts(Username,Password,Role)
+Values('admin',77777777,'admin'),
+('user1',1111,'user'),
+('seller1',1111,'seller'),
+('seller2',1111,'seller'),
+('user2',1111,'user'),
+('user3',1111,'user')
+
+Insert into Products(Product_Name,Product_Image,Product_Price,Product_Title,Product_Description,Product_Size,cateID,sell_ID)
+Values ('Nike Air Max 90','images/shoe1.jpg',1400.00,'nike air','new',100,1,3),	
+('Jordan I High OG','images/shoe2.jpg',2600.00,'nike air','new',100,1,3),
+('Jordan 13 Retro','images/shoe3.jpg',5800.00,'nike air','new',100,1,3),
+('Adidas NMD R1','images/shoe4.jpg',23900.00,'nike air','new',100,1,3),
+('Nike Air VaporMax Flyknit 3','images/shoe5.jpg',9000.00,'nike air','new',100,1,3),
+('Nike Revolution 5','images/shoe6.jpg',5000.00,'nike air','new',100,1,3),
+('Nike Air VaporMax Plus','images/shoe7.jpg',2200.00,'nike air','new',100,1,3),	
+('Nike Air Max 97','images/shoe8.jpg',3500.00,'nike air','new',100,1,3),	
+('Nike Air Max 270s','images/shoe9.jpg',7800.00,'nike air','new',100,1,3),	
+('Nike Air Force 1 Low','images/shoe10.jpg',11400.00,'nike air','new',100,1,3),	
+('LOUIS VUITTON SPEEDY','images/bag.jpg',17300.00,'nike air','new',100,2,4),
+('Dads hat','images/hat.jpg',4400.00,'Dads hat','new',100,3,4),
+('HERMÈS KELLY','images/bag2.jpg',400.00,'HERMÈS bag','new',100,2,4)
+
+
+
+Insert into Coupon(CouponCode,Discount_Amount,Expire_Date)
+Values('GIAM20',20,'2022-1-1'),
+('GIAM50',50,'2022-1-1')	
