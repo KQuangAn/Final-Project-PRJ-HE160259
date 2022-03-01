@@ -6,6 +6,7 @@ Theo thống kê, mỗi năm có tới 2 tỷ người dùng sử dụng các tr
 +Giỏ hàng cập nhật tự động giá tiền
 +Cho phép đổi tên đăng nhập và mặt khẩu
 +Cập nhật hóa đơn vào database
++Kiểm tra các đơn hàng dành cho admin và seller 
 
 # Database design 
 ![image](https://user-images.githubusercontent.com/100283929/156034321-8e7c242f-b1ad-4f91-9a99-babbae89d3df.png)
