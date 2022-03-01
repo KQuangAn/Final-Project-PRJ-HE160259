@@ -4,8 +4,7 @@ Theo thống kê, mỗi năm có tới 2 tỷ người dùng sử dụng các tr
 +Logout/Login và thay đổi mật khẩu 
 +Mua hàng chỉ với 1 click chuột
 +Giỏ hàng cập nhật tự động giá tiền
-+
-
++Cho phép đổi tên đăng nhập và mặt khẩu
 
 
 # Database design 
