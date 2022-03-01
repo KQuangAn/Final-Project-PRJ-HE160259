@@ -9,7 +9,7 @@ Theo thống kê, mỗi năm có tới 2 tỷ người dùng sử dụng các tr
 +Kiểm tra các đơn hàng dành cho admin và seller 
 
 # Database design 
-![image](https://user-images.githubusercontent.com/100283929/156161559-240aadc1-f14e-4b38-aa50-71b2bb3c6027.png)
+
 
 #Demo
 
@@ -31,5 +31,5 @@ giỏ hàng sẽ trông thế này:
 ![image](https://user-images.githubusercontent.com/100283929/156160745-b6e0d12a-94c9-432d-9211-3c5432997d8c.png)
 
 6.Kiểm tra tất cả order đã xảy ra cho admin và seller 
-![image](https://user-images.githubusercontent.com/100283929/156161656-66a2ce65-498d-4445-b436-002002e1d0c6.png)
+![image](https://user-images.githubusercontent.com/100283929/156161781-dd0fb9b9-f650-49c1-9653-bd0348366855.png)
 
