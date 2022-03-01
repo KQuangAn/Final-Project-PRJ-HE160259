@@ -27,4 +27,6 @@ giỏ hàng sẽ trông thế này:
 ![image](https://user-images.githubusercontent.com/100283929/156140042-262d2655-aee7-4705-9c92-7da7e042aab5.png)
 -Người dùng có thêm thêm bớt hoặc xóa sp tùy ý, ngoài ra có thể dùng voucher để giảm giá các mặt hàng
 
+5.Nếu tài khoản đăng nhập có quyền admin hoặc seller, thêm các tùy chọn:
+![image](https://user-images.githubusercontent.com/100283929/156160745-b6e0d12a-94c9-432d-9211-3c5432997d8c.png)
 
