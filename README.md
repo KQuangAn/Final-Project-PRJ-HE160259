@@ -9,7 +9,7 @@ Theo thống kê, mỗi năm có tới 2 tỷ người dùng sử dụng các tr
 +Kiểm tra các đơn hàng dành cho admin và seller 
 
 # Database design 
-
+![image](https://user-images.githubusercontent.com/100283929/156161857-76fba4c1-df20-4ad6-975f-307bfca97152.png)
 
 #Demo
 
