@@ -33,3 +33,9 @@ giỏ hàng sẽ trông thế này:
 6.Kiểm tra tất cả order đã xảy ra cho admin và seller 
 ![image](https://user-images.githubusercontent.com/100283929/156161781-dd0fb9b9-f650-49c1-9653-bd0348366855.png)
 
+
+#Conclusion
+Pros: website đã có hầu hết các tính năng chính của một website ecomerce hoàn chỉnh
+Cons: giao diện chưa được đep lắm.
+
+Sau khi hoàn thành project này, em đã có thêm nhiều kinh nghiệm về lập trình web cũng như là servlet, sử dụng session và xây dựng database
