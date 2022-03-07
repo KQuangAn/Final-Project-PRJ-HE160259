@@ -35,6 +35,10 @@ giỏ hàng sẽ trông thế này:
 ![image](https://user-images.githubusercontent.com/100283929/156161781-dd0fb9b9-f650-49c1-9653-bd0348366855.png)
 
 
+
+![image](https://user-images.githubusercontent.com/100283929/157029187-8ccc6b6e-9772-40bb-9afe-54230848fe42.png)
+
+
 #Conclusion
 Pros: website đã có hầu hết các tính năng chính của một website ecomerce hoàn chỉnh
 Cons: giao diện chưa được đep lắm.
